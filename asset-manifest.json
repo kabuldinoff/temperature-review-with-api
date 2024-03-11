@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/temperature-review-with-api/static/css/main.c01d030b.css",
+    "main.js": "/temperature-review-with-api/static/js/main.a6e442cf.js",
+    "index.html": "/temperature-review-with-api/index.html",
+    "main.c01d030b.css.map": "/temperature-review-with-api/static/css/main.c01d030b.css.map",
+    "main.a6e442cf.js.map": "/temperature-review-with-api/static/js/main.a6e442cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c01d030b.css",
+    "static/js/main.a6e442cf.js"
+  ]
+}
