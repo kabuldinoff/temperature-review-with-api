@@ -1,3 +1,20 @@
+# Historical daily temperature values of Magdeburg
+
+## To run project locally
+
+1. Clone project
+2. Install node.js and npm if not installed. To create react app with typescript template open terminal and type command: `npx create-react-app@latest . --template typescript`
+3. Install react-bootstrap framework: `npm install react-bootstrap bootstrap`, recharts library: `npm install recharts`, date utility library: `npm install date-fns` and `npm install @types/date-fns --save-dev` and then type `npm start`,
+4. Open the app local in the browser: [http://localhost:3000](http://localhost:3000)
+
+## Demo of the app
+[Link to the app](https://kabuldinoff.github.io/temperature-review-with-api/)
+
+---
+
+[Bright Sky docs](https://brightsky.dev/docs/#/) that I used in this app.
+Bright Sky is a free and open-source weather API. It aims to provide an easy-to-use gateway to weather data that the DWD – Germany's meteorological service – publishes on their open data server.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
