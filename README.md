@@ -1,4 +1,4 @@
-# Historical daily temperature values of Magdeburg
+# Historical daily temperature values of Dresden
 
 ## To run project locally
 

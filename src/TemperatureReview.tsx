@@ -23,7 +23,7 @@ const TemperatureReview: React.FC = () => {
 
     const fetchData = async (date: Date): Promise<Data[]> => {
         const formattedDate = format(date, "yyyy-MM-dd"); // Format as in Bright Sky API
-        const response = await fetch(`https://api.brightsky.dev/weather?lat=52.13&lon=11.63&date=${formattedDate}`); // Magdeburg coordinates
+        const response = await fetch(`https://api.brightsky.dev/weather?lat=51.13&lon=13.75&date=${formattedDate}`); // Dresden coordinates
         const jsonData = await response.json();
         const dailyTemperatures = jsonData.weather.map((item: any) => item.temperature);
         const avgTemp = dailyTemperatures.reduce((accumulator: number, currentValue: number) => accumulator + currentValue, 0) / dailyTemperatures.length; // Calculate the average temperature, because Bright Sky API provides temperature values from DWD hourly and not daily average
@@ -93,7 +93,7 @@ const TemperatureReview: React.FC = () => {
             minBreakpoint="xxs"
         >
             <Container>
-                <h1 className="text-center">Review of historical daily temperature values for the city of Magdeburg with Bright Sky API</h1>
+                <h1 className="text-center">Review of historical daily temperature values for the city of Dresden with Bright Sky API</h1>
                 <div>
                     <Row>
                         <Col>
